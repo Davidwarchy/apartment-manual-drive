@@ -2,6 +2,8 @@
 
 This repository contains a simulation of a two-wheeled robot that can be controlled inside a virtual apartment environment using the Webots robotics simulator.
 
+![alt text](complete_apartment.png)
+
 ## Robot Description
 
 The robot is a simple two-wheeled differential drive platform with the following features:
@@ -35,7 +37,7 @@ The robot uses a differential drive control scheme:
 ### 2. Clone this Repository
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/Davidwarchy/apartment-manual-drive.git
 cd apartment-manual-drive
 ```
 
@@ -86,12 +88,6 @@ apartment-manual-drive/
 ## Modifying the Robot Controller
 
 The main robot controller is located at `controllers/drive_robot/drive_robot.py`. You can modify this file to change the robot's behavior, add new features, or implement autonomous navigation.
-
-## Troubleshooting
-
-- If the robot doesn't move, ensure that the simulation is running (not paused)
-- Check that the controller is properly associated with the robot in the Webots scene tree
-- Verify that the motor names in the controller match those in the robot model
 
 ## License
 
